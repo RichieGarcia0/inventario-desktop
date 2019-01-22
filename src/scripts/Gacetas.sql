@@ -66,5 +66,6 @@ CREATE TABLE usuarios(
 );
 
 INSERT INTO usuarios (nombre, contraseña, numTrabajador) VALUES ('Edgar Ricardo García Aldana', 'richie', 12345);
-INSERT INTO usuarios (nombre, contraseña, numTrabajador) VALUES ('Brenda Iveth Cruz Gálvez', 'brenda', 67890);
-INSERT INTO usuarios (nombre, contraseña, numTrabajador) VALUES ('Benjamin García Gálvez', 'benjamin', 15973);
+INSERT INTO usuarios (nombre, contraseña, numTrabajador) VALUES ('Edgar Ricardo García Ramírez', 'edgar', 67890);
+--INSERT INTO usuarios (nombre, contraseña, numTrabajador) VALUES ('Brenda Iveth Cruz Gálvez', 'brenda', 67890);
+--INSERT INTO usuarios (nombre, contraseña, numTrabajador) VALUES ('Benjamin García Gálvez', 'benjamin', 15973);
