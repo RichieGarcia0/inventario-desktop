@@ -46,8 +46,8 @@ public class Login extends javax.swing.JFrame {
         Contraseña = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Login");
         setBackground(new java.awt.Color(255, 255, 255));
-        setUndecorated(true);
 
         jPanel2.setBackground(new java.awt.Color(207, 207, 207));
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
