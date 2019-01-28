@@ -36,12 +36,13 @@ CREATE TABLE gacetas(
     fechaRecepcion date not null,
     persona varchar(75) not null,
     numeroEjemplares int not null,
+    ordenImpresion int not null, --Pendiente de cambio de versión
     ejemplaresHemeroteca int not null,
-    entregadaDirector boolean,
-    entregadaHemeroteca boolean,
-    entregadaRuta boolean,
-    entregadaModulo boolean,
-    entregadaSuscripciones boolean
+    entregadaDirector int not null, --Cambio boolean a int not null
+    entregadaHemeroteca int not null, --Cambio boolean a int not null
+    entregadaRuta int not null, --Cambio boolean a int not null
+    entregadaModulo int not null, --Cambio boolean a int not null
+    entregadaSuscripciones int not null --Cambio boolean a int not null
 );
 
 CREATE TABLE modificaciones(
