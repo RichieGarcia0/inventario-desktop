@@ -46,7 +46,8 @@ public class Login extends javax.swing.JFrame {
         Contraseña = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Login");
+        setTitle("Control de Inventario de Gacetas Oficiales");
+        setAutoRequestFocus(false);
         setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel2.setBackground(new java.awt.Color(207, 207, 207));
