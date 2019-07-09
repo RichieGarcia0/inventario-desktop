@@ -24,13 +24,14 @@ public class Gaceta {
     private String persona;
     private int numeroEjemplares;
     private int ejemplaresHemeroteca;
-    private boolean entregadaDirector;
-    private boolean entregadaHemeroteca;
-    private boolean entregadaRuta;
-    private boolean entregadaModulo;
-    private boolean entregadaSuscripciones;
+    private int entregadaDirector;
+    private int entregadaHemeroteca;
+    private int entregadaRuta;
+    private int entregadaModulo;
+    private int entregadaSuscripciones;
 
-    public Gaceta(int numeroGaceta, int paginasEjemplar, String tipo, Date fechaEjemplar, String archivoDigital, int numeroTomo, Date fechaRecepcion, String persona, int numeroEjemplares, int ejemplaresHemeroteca, boolean entregadaDirector, boolean entregadaHemeroteca, boolean entregadaRuta, boolean entregadaModulo, boolean entregadaSuscripciones) {
+    public Gaceta(int id, int numeroGaceta, int paginasEjemplar, String tipo, Date fechaEjemplar, String archivoDigital, int numeroTomo, Date fechaRecepcion, String persona, int numeroEjemplares, int ejemplaresHemeroteca, int entregadaDirector, int entregadaHemeroteca, int entregadaRuta, int entregadaModulo, int entregadaSuscripciones) {
+        this.id = id;
         this.numeroGaceta = numeroGaceta;
         this.paginasEjemplar = paginasEjemplar;
         this.tipo = tipo;
@@ -140,43 +141,43 @@ public class Gaceta {
         this.ejemplaresHemeroteca = ejemplaresHemeroteca;
     }
 
-    public boolean isEntregadaDirector() {
+    public int getEntregadaDirector() {
         return entregadaDirector;
     }
 
-    public void setEntregadaDirector(boolean entregadaDirector) {
+    public void setEntregadaDirector(int entregadaDirector) {
         this.entregadaDirector = entregadaDirector;
     }
 
-    public boolean isEntregadaHemeroteca() {
+    public int getEntregadaHemeroteca() {
         return entregadaHemeroteca;
     }
 
-    public void setEntregadaHemeroteca(boolean entregadaHemeroteca) {
+    public void setEntregadaHemeroteca(int entregadaHemeroteca) {
         this.entregadaHemeroteca = entregadaHemeroteca;
     }
 
-    public boolean isEntregadaRuta() {
+    public int getEntregadaRuta() {
         return entregadaRuta;
     }
 
-    public void setEntregadaRuta(boolean entregadaRuta) {
+    public void setEntregadaRuta(int entregadaRuta) {
         this.entregadaRuta = entregadaRuta;
     }
 
-    public boolean isEntregadaModulo() {
+    public int getEntregadaModulo() {
         return entregadaModulo;
     }
 
-    public void setEntregadaModulo(boolean entregadaModulo) {
+    public void setEntregadaModulo(int entregadaModulo) {
         this.entregadaModulo = entregadaModulo;
     }
 
-    public boolean isEntregadaSuscripciones() {
+    public int getEntregadaSuscripciones() {
         return entregadaSuscripciones;
     }
 
-    public void setEntregadaSuscripciones(boolean entregadaSuscripciones) {
+    public void setEntregadaSuscripciones(int entregadaSuscripciones) {
         this.entregadaSuscripciones = entregadaSuscripciones;
     }
 }
